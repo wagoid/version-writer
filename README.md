@@ -5,7 +5,7 @@ A simple grunt plugin to write the package's version into your page
 
 Add the following dependency to your project:
 ```
-"version-writer": "git+https://github.com/wagoid/version-writer.git"
+"version-writer": "^0.1.0"
 ```
 
 Configure your GruntFile.js. Example GruntFile.js content:
