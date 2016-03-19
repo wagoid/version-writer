@@ -4,7 +4,7 @@ const FILE_PATH = './index.html';
 const DEFAULT_TAG = 'p';
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('versionWriter', 'Gets the version from your package.json file and writes it into your page', function() {
+  grunt.registerTask('versionWriter', 'Gets the version from your package.json file and writes it into your page', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       packagePath: PACKAGE_PATH,

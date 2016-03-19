@@ -9,5 +9,9 @@
   "description": "A simple grunt plugin to write the package's version into your page",
   "dependencies": {
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wagoid/version-writer.git"
+  },
   "license": "MIT"
 }
