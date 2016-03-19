@@ -27,6 +27,14 @@ module.exports = function(grunt) {
 };
 ```
 
+Run ```npm install```
+
+Now run the script!
+
+```grunt versionWriter```
+
+
+
 The packagePath option is the path to your package.json file. Default is './package.json'.
 
 The filePath option is the path to your index.html file. Default is './index.html'.
